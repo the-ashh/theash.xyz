@@ -19,6 +19,11 @@ body {
     color: black;
 }
 
+#about {
+    font-family: 'Dosis', sans-serif;
+    font-size: 200%;
+    text-decoration: none;
+}
 
 .button {
     background-color: #19bbac;
