@@ -3,6 +3,7 @@ body {
     color: black;
     text-align: center;
     font-family: 'Bungee', cursive;
+    text-decoration: none;
 }
 
 .container {
