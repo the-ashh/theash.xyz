@@ -21,6 +21,8 @@ body {
     color: black;
 }
 
+
+
 #about {
     font-family: 'Dosis', sans-serif;
     font-size: 200%;
@@ -30,7 +32,7 @@ body {
 .button {
     background-color: #19bbac;
     border: 2px solid #19bbac;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
