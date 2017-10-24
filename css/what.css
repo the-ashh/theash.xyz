@@ -30,8 +30,7 @@ span::after {
   -webkit-animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes typecon /* Safari and Chrome */
-{
+@-webkit-keyframes typecon /* anything that uses webkit */ {
 from {width: 16px;
     }
 
@@ -39,7 +38,7 @@ to {width: 100%;
    }
 }
 
-@-webkit-keyframes typeconCur /* Safari and Chrome */
+@-webkit-keyframes typeconCur /* anything that uses webkit */
 {
 60% {opacity: 0.85;}
 100% {opacity: 0;
@@ -50,21 +49,27 @@ to {width: 100%;
 span:nth-child(1), span:nth-child(1):after{
   -webkit-animation-delay: 0s
 }
+
 span:nth-child(2), span:nth-child(2):after{
   -webkit-animation-delay: 1s
 }
+
 span:nth-child(3), span:nth-child(3):after{
   -webkit-animation-delay: 2s
 }
+
 span:nth-child(4), span:nth-child(4):after{
   -webkit-animation-delay: 3s
 }
+
 span:nth-child(5), span:nth-child(5):after{
   -webkit-animation-delay: 4s
 }
+
 span:nth-child(6), span:nth-child(6):after{
   -webkit-animation-delay: 5s
 }
+
 span:nth-child(7), span:nth-child(7):after{
   -webkit-animation-delay: 6s
 }
