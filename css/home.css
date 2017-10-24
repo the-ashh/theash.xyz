@@ -3,7 +3,6 @@ body {
     color: white;
     text-align: center;
     font-family: 'Dosis', sans-serif;
-
 }
 
 .container {
@@ -40,7 +39,7 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s; /* anything that uses webkit (safari, chrome, opera, etc.) */
     transition-duration: 0.4s;
 }
 
@@ -52,7 +51,7 @@ a, a:visited, a:active {
     color: white;
 }
 
-/* Grow Shadow */
+/* shadow thing */
 .hvr-grow-shadow {
     display: inline-block;
     vertical-align: middle;
