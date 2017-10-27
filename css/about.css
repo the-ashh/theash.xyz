@@ -2,9 +2,7 @@ body {
     background: #9b375e;
     color: black;
     text-align: center;
-    font-family: 'VT323', monospace;
     text-decoration: none;
-    font-size: 200%;
 }
 
 .container {
@@ -23,6 +21,11 @@ body {
     text-align: center;
 }
 
+ p {
+  font-family: 'VT323', monospace;
+  text-decoration: none;
+  font-size: 200%;
+}
 
 .button {
     background-color: #9b375e;
