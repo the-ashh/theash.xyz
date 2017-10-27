@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-family: 'VT323', monospace;
     text-decoration: none;
+    size: 200%;
 }
 
 .container {
@@ -43,6 +44,7 @@ body {
 }
 
 a, a:visited, a:active {
+    font-family: 'VT323', monospace;
     color: white;
     text-decoration: none;
 }
