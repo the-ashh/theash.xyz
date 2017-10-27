@@ -2,7 +2,7 @@ body {
     background: #19bbac;
     color: black;
     text-align: center;
-    font-family: 'Bungee', cursive;
+    font-family: 'VT323', monospace;
     text-decoration: none;
 }
 
@@ -16,6 +16,7 @@ body {
 }
 
 #main-title {
+    font-family: 'Bungee', cursive;
     font-size: 700%;
     color: white;
     text-align: center;
