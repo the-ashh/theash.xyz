@@ -7,6 +7,10 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+.fa-3x {
+    font-size: 3em;
+}
 .fa {
     display: inline-block;
     font: 14px/1 FontAwesome;
