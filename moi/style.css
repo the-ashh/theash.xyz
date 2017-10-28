@@ -28,7 +28,7 @@ body {
     align-items: center;
   background-color: #FFF;
     display: flex;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bungee', sans-serif;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
@@ -38,7 +38,7 @@ div.container {
     align-items: center;
     align-self: center;
     background: url('http://i.pinimg.com/736x/50/2a/0b/502a0b32f18af908b3a871f99a14c279--marvel-dc-marvel-comics.jpg') center center;
-    border-radius: 100%;
+    border-radius: 90%;
     display: flex;
     flex-direction: column;
     min-height: 800px;
