@@ -25,6 +25,7 @@ body {
   text-decoration: none;
 }
 
+/* stuff for the buttons */
 .button {
   background-color: #9b375e;
   border: 2px solid #9b375e;
@@ -36,21 +37,21 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  /* anything that uses webkit (safari, chrome, opera, etc.) */
+  -webkit-transition-duration: 0.4s; /* anything that uses webkit (safari, chrome, opera, etc.) */
   transition-duration: 0.4s;
 }
 
+/* more stuff for the button */
 .button:hover {
   background-color: transparent;
 }
 
+/* makes the links stay the same no matter what */
 a, a:visited, a:active {
   color: white;
 }
 
 /* shadow thing */
-
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -63,6 +64,7 @@ a, a:visited, a:active {
   transition-property: box-shadow, transform;
 }
 
+/* more stuff for the button */
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
