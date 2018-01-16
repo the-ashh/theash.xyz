@@ -13,7 +13,7 @@ body {
 }
 
  p {
-  font-family: 'Geo', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   font-size: 200%;
 }
@@ -41,7 +41,7 @@ body {
 
 /* makes the link thing stay the same no matter what */
 a, a:visited, a:active {
-    font-family: 'Geo', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     color: white;
     text-decoration: none;
 }
