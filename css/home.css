@@ -14,13 +14,17 @@ body {
 }
 
 #main-title {
-  font-family: 'Bungee', cursive;
+  font-family: acier-bat-strokes, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 700%;
   color: black;
 }
 
 #about {
-  font-family: 'Fascinate Inline', sans-serif;
+  font-family: acier-bat-gris, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 200%;
   text-decoration: none;
 }
@@ -37,7 +41,8 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* anything that uses webkit (safari, chrome, opera, etc.) */
+  -webkit-transition-duration: 0.4s;
+  /* anything that uses webkit (safari, chrome, opera, etc.) */
   transition-duration: 0.4s;
 }
 
@@ -47,7 +52,9 @@ body {
 }
 
 /* makes the links stay the same no matter what */
-a, a:visited, a:active {
+a,
+a:visited,
+a:active {
   color: white;
 }
 
@@ -65,7 +72,9 @@ a, a:visited, a:active {
 }
 
 /* more stuff for the button */
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+.hvr-grow-shadow:hover,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:active {
   /*box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);*/
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
