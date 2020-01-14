@@ -1,6 +1,6 @@
 body {
-    background: #9b375e;
-    color: black;
+    background: #181A1B;
+    color: white;
     text-align: center;
     text-decoration: none;
 }
@@ -27,13 +27,14 @@ body {
 p {
     font-family: 'Source Code Pro', monospace;
     text-decoration: none;
+    text-color: white;
     font-size: 200%;
 }
 
 /* stuff for the button */
 .button {
-    background-color: #9b375e;
-    border: 2px solid #9b375e;
+    background-color: white;
+    border: 2px solid white;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -43,7 +44,7 @@ p {
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
-    /* anything that uses webkit */
+    /* anything that uses webkit (safari, chrome, opera, etc.) */
     transition-duration: 0.4s;
 }
 

@@ -1,5 +1,5 @@
 body {
-  background: #9b375e;
+  background: #181A1B;
   color: white;
   text-align: center;
 }
@@ -18,7 +18,7 @@ body {
   font-weight: 200;
   font-style: normal;
   font-size: 700%;
-  color: black;
+  color: white;
 }
 
 #about {
@@ -31,8 +31,8 @@ body {
 
 /* stuff for the buttons */
 .button {
-  background-color: #9b375e;
-  border: 2px solid #9b375e;
+  background-color: white;
+  border: 2px solid white;
   color: white;
   padding: 15px 32px;
   text-align: center;
