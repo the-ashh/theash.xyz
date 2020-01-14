@@ -33,8 +33,8 @@ p {
 
 /* stuff for the button */
 .button {
-    background-color: white;
-    border: 2px solid white;
+    background-color: #181A1B;
+    border: 2px solid #181A1B;
     color: white;
     padding: 15px 32px;
     text-align: center;
